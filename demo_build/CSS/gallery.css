@@ -1,0 +1,31 @@
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  max-width: 100%;
+  padding-bottom: 50px;
+}
+
+.photo {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.photo img {
+  width: calc(100% - 20px);
+}
+
+.ourGallery{
+  font-size: 36px;
+  padding-top: 28px;
+  padding-bottom: 20px;
+}
+
+@media(max-width: 1024px){
+    .photo{
+        width: 100%;
+    }
+}

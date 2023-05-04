@@ -1,0 +1,63 @@
+.reg_system_blok
+{
+    width: 100%;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+} 
+
+
+.reg_system_button
+{
+    font-size: 17px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+    background-color: #9c3f95;
+    transition: 0.5s all ease;
+}
+
+.reg_system_button:hover
+{
+    transition: 0.5s all ease;
+    background-color: #cf59c5;
+}
+
+.reg_system_input
+{
+    font-size: 17px;
+    padding-left: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.reg_system_status li
+{
+    text-align: center;
+    color: #f83455;
+}
+
+.reg_system_form p
+{
+    margin-top: 15px;
+    color: rgb(138, 133, 133);
+}
+
+.reg_system_status
+{
+    margin-bottom: 5px;
+}
+
+.reg_system_link
+{
+    cursor: pointer;
+    color: #9c3f95;
+    transition: 0.5s all ease;
+}
+
+.reg_system_link:hover
+{
+    color: #cf59c5;
+    transition: 0.5s all ease;
+}

@@ -1,0 +1,174 @@
+td{
+	padding: 0;
+}
+
+header 
+{
+    overflow: hidden;
+    position: relative;
+    max-width: 100vw;
+    height: 30vh;
+    background: url(/resources/images/history/content/connected-people.png) center top / cover;
+}
+
+.table_with_projects 
+{
+	width: 80%;
+	border: none;
+	margin-bottom: 20px;
+}
+
+.table_with_projects thead th 
+{
+	font-weight: bold;
+	border: none;
+	padding: 10px 15px;
+	background: #b6aeae;
+}
+
+th.number
+{
+    width: 1%;
+}
+
+th.mark
+{
+	word-break: break-all;
+    width: 12%;
+}
+
+td.name
+{
+	width: 63%;
+    text-align: left;
+}
+
+.table_with_projects thead tr th:first-child 
+{
+	border-radius: 8px 0 0 8px;
+}
+
+.table_with_projects thead tr th:last-child
+{
+	border-radius: 0 8px 8px 0;
+}
+
+.table_with_projects tbody td 
+{
+	border: none;
+	padding: 10px 15px;
+}
+
+.table_with_projects tbody tr.confrimed 
+{
+	background: #46cf68 !important;
+}
+
+.table_with_projects tbody tr.last 
+{
+	background: #ff9800 !important;
+}
+
+.table_with_projects tbody tr:nth-child(odd)
+{
+	text-align: center;
+	background: #d3d0d0;
+}
+
+.table_with_projects tbody tr td:first-child 
+{
+	border-radius: 8px 0 0 8px;
+}
+
+.table_with_projects tbody tr td:nth-last-child(2)
+{
+	border-radius: 0 8px 8px 0;
+}
+
+.chat_table
+{
+	display: none;
+}
+
+.table_with_projects tbody tr td.table_button
+{
+	vertical-align: middle;
+	padding: 0px 0px 0px 7px;
+	background: #f5f5f4;
+	width: 4%;
+}
+
+.mark_send_button
+{
+	font-size: 39px;
+	background: #f5f5f4;
+	height: 43px;
+}
+
+.show_chat_button
+{
+	font-size: 39px;
+	background: #f5f5f4;
+	height: 43px;
+}
+
+.mark_input
+{
+	width: 45px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#send_marks_status li[class="warning"]
+{
+    text-align: center;
+    color: #f83455;
+}
+
+#send_marks_status li[class="success"]
+{
+    text-align: center;
+    color: #00ff6a;
+}
+
+#send_marks_status
+{
+    margin-bottom: 5px;
+}
+
+@media (max-width: 700px) {
+	.table_with_projects {
+		width: 100%;
+		max-width: 100%;
+		font-size: 10px;
+	}
+	.table_with_projects thead th {
+		padding: 3px 5px;
+	}
+
+	.table_with_projects tbody td {
+		padding: 3px 5px;
+	}
+
+
+	.show_chat_button {
+		font-size: 20px;
+		height: 20px;
+	}
+
+	.mark_send_button {
+		font-size: 20px;
+		height: 20px;
+	}
+	.mark_input 
+	{
+		width: 100%;
+		font-size: 100%;
+	}
+}
+
+a.project_link_name
+{
+	/* word-wrap: break-word; */
+	word-break: break-all;
+}

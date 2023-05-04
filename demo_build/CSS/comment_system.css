@@ -1,0 +1,116 @@
+.comment_system_box
+{
+    height: 350px;
+    background-color: #5c2657;
+    min-width: 100px;
+    width: 100%;
+
+    /* width: 60%; */
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    margin: auto;
+    overflow: auto;
+}
+
+.comment_system_box::-webkit-scrollbar 
+{ 
+    display: none; 
+}
+
+.comment_system_user_comment
+{
+    word-wrap: break-word;
+    padding: 10px;
+    background-color: #813079;
+    /* margin: 5px; */
+    margin: 5px auto 5px;
+    border-radius: 10px;
+    max-width: 60vw;
+}
+
+.comment_system_user_login
+{
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.comment_system_user_msg
+{
+    color: rgb(179, 165, 165);
+    font-size: 19px;
+    font-family: "Source Sans Pro", sans-serif;
+    max-width: 100%;
+}
+
+.send_comment
+{
+    margin: auto;
+    /* width: 60%; */
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2),
+    -7px -7px 7px rgba(255, 255, 255, 1);
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) 
+{
+    .send_comment {
+      flex-wrap: wrap;
+      box-shadow: none;
+      justify-content: center;
+    }
+  
+    .send_comment input {
+      margin-bottom: 10px;
+      box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2),
+    -7px -7px 7px rgba(255, 255, 255, 1);
+    }
+  
+    .send_comment button {
+      font-size: 15px !important;
+      height: 30px !important;
+      line-height: 30px !important;
+    }
+
+    .comment_system_user_login {
+        font-size: 13px;
+    }
+
+    .comment_system_user_msg {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1300px)
+{
+  .send_comment button {
+    font-size: 18px !important;
+    height: 36px !important;
+    line-height: 36px !important;
+  }
+}
+
+.comment_system_button
+{
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    background-color: #813079;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.comment_system_input
+{
+    background-color: #F3F3F2;
+    padding: 0 10px;
+    font-size: 23px;
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+}
